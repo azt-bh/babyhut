@@ -303,9 +303,10 @@ nav {
 }
 
 .prod-img {
-  aspect-ratio: 1;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 4rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .prod-img-bath    { background: linear-gradient(135deg, #D4E8EC, #B8D4DA); }
@@ -573,7 +574,9 @@ footer {
   <div class="prod-grid">
 
     <a href="YOUR_AFFILIATE_LINK" target="_blank" rel="nofollow" class="prod-card">
-      <div class="prod-img prod-img-bath">🛁</div>
+      <div class="prod-img">
+        <img src="images/towels.png" alt="UNIMADE Hooded Baby Towels 4-Pack">
+      </div>
       <div class="prod-body">
         <span class="prod-cat">Bath Time</span>
         <h3 class="prod-name">UNIMADE Hooded Baby Towels 4-Pack</h3>
