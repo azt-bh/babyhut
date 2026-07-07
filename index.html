@@ -181,7 +181,7 @@ header {
 
 /* ───────── CATEGORY PILLS ───────── */
 .cat-row {
-  display: grid; grid-template-columns: repeat(3, 1fr);
+  display: grid; grid-template-columns: repeat(4, 1fr);
   gap: 1.2rem;
 }
 
@@ -205,6 +205,7 @@ header {
 .cat-bath    .cat-art { background: var(--seafoam); }
 .cat-nursery .cat-art { background: var(--dune); }
 .cat-art-prints .cat-art { background: var(--peach); }
+.cat-meal .cat-art { background: var(--peach); }
 
 .cat-name {
   position: relative; z-index: 2;
@@ -387,6 +388,7 @@ footer { background: var(--cocoa); color: rgba(251,247,240,0.65); }
     <a href="#" class="brand">Baby Hut<small>Curated with love</small></a>
     <ul class="nav-menu">
       <li><a href="#bath">Bath Time</a></li>
+      <li><a href="#mealtime">Meal Time</a></li>
       <li><a href="#nursery">Nursery</a></li>
       <li><a href="#prints">Wall Art</a></li>
       <li><a href="https://pinterest.com/baby_hut" target="_blank">Pinterest</a></li>
@@ -425,6 +427,12 @@ footer { background: var(--cocoa); color: rgba(251,247,240,0.65); }
       </div>
       <span class="cat-name">Bath Time</span>
     </a>
+    <a href="#mealtime" class="cat-tile cat-meal">
+  <div class="cat-art">🍼
+    <!-- <img src="meal-category.png" alt="Meal time products"> -->
+  </div>
+  <span class="cat-name">Meal Time</span>
+  </a>
     <a href="#nursery" class="cat-tile cat-nursery">
       <div class="cat-art">🧸
         <!-- <img src="images/cat-nursery.png" alt="Nursery essentials"> -->
@@ -489,7 +497,32 @@ footer { background: var(--cocoa); color: rgba(251,247,240,0.65); }
 </div>
 
 <div class="scallop scallop-flip"></div>
+<!-- ══════════ MEAL TIME ══════════ -->
+<section class="section" id="mealtime">
+  <div class="section-head">
+    <span class="kicker">Amazon picks</span>
+    <h2>Meal time favourites</h2>
+  </div>
+  <div class="grid">
 
+    <div class="card">
+      <div class="card-img tone-peach">
+        🍼
+        <!-- <img src="feeding-set.png" alt="Baby feeding set"> -->
+      </div>
+      <div class="card-body">
+        <span class="card-tag">Meal Time</span>
+        <h3 class="card-title">Your Feeding Product Name Here</h3>
+        <p class="card-desc">Short description of the product — what it does and why parents love it.</p>
+        <div class="card-row">
+          <span class="stars">★ 0.0 (0)</span>
+          <span class="price">$0.00</span>
+        </div>
+        <a class="card-btn" href="YOUR_AFFILIATE_LINK" target="_blank" rel="nofollow sponsored">Shop on Amazon</a>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- ══════════ NURSERY ══════════ -->
 <section class="section" id="nursery">
   <div class="section-head">
