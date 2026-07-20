@@ -181,7 +181,7 @@ header {
 
 /* ───────── CATEGORY PILLS ───────── */
 .cat-row {
-  display: grid; grid-template-columns: repeat(4, 1fr);
+  display: grid; grid-template-columns: repeat(3, 1fr);
   gap: 1.2rem;
 }
 
@@ -306,7 +306,7 @@ header {
 .promise-inner {
   max-width: 1140px; margin: 0 auto;
   padding: 2.6rem 1.5rem;
-  display: grid; grid-template-columns: repeat(3, 1fr);
+  display: grid; grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem; text-align: center;
 }
 
@@ -395,7 +395,7 @@ footer { background: var(--cocoa); color: rgba(251,247,240,0.65); }
       <li><a href="#bath">Bath Time</a></li>
       <li><a href="#mealtime">Meal Time</a></li>
       <li><a href="#nursery">Nursery</a></li>
-      <li><a href="#prints">Wall Art</a></li>
+      <listyle="display:none"><a href="#prints">Wall Art</a></li>
       <li><a href="https://pinterest.com/baby_hut" target="_blank">Pinterest</a></li>
     </ul>
   </div>
@@ -442,7 +442,7 @@ footer { background: var(--cocoa); color: rgba(251,247,240,0.65); }
       </div>
       <span class="cat-name">Nursery & Storage</span>
     </a>
-    <a href="#prints" class="cat-tile cat-art-prints">
+    <a href="#prints" class="cat-tile cat-art-prints" style="display:none">
       <div class="cat-art">🎨
         <!-- <img src="images/cat-prints.png" alt="Printable wall art"> -->
       </div>
@@ -581,7 +581,7 @@ footer { background: var(--cocoa); color: rgba(251,247,240,0.65); }
       <h3>Highly rated</h3>
       <p>Every pick is backed by real Amazon reviews.</p>
     </div>
-    <div class="promise-item">
+    <div class="promise-item" style="display:none">
       <div class="p-emoji">⬇️</div>
       <h3>Instant art downloads</h3>
       <p>Print our nursery art at home, minutes after purchase.</p>
@@ -661,12 +661,12 @@ footer { background: var(--cocoa); color: rgba(251,247,240,0.65); }
         <h4>Shop</h4>
         <a href="#bath">Bath Time</a>
         <a href="#nursery">Nursery & Storage</a>
-        <a href="#prints">Printable Wall Art</a>
+        <a href="#prints" style="display:none">Printable Wall Art</a>
       </div>
       <div class="foot-col">
         <h4>Find us</h4>
         <a href="https://pinterest.com/baby_hut" target="_blank">Pinterest</a>
-        <a href="https://beacons.ai/babythings" target="_blank">Beacons</a>
+        <a href="https://beacons.ai/babythings" target="_blank" tyle="display:none">Beacons</a>
       </div>
     </div>
     <p class="disclosure">
